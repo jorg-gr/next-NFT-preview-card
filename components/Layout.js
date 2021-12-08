@@ -11,7 +11,7 @@ export default function Layout() {
     <main className="bg-cardbg text-whitebg p-8 rounded-lg w-96">
       <ImageNFT />
 
-      <div className="">
+      <div>
         <div className="mt-4 hover:text-txtcyan">
           <h1 className="font-semi-bold">
             <a href="#">Equilibrium #3429</a>
@@ -40,12 +40,12 @@ export default function Layout() {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <hr className="border-soft-blue" />
         </div>
 
         <div className="flex items-center mt-4">
-          <div className="">
+          <div>
             <div className="h-16 w-16 border-whitebg border-2 rounded-full">
               <Image src={UserImage} alt="User Profile" />
             </div>
